@@ -1,0 +1,541 @@
+2022-11-30 11:52:27.715 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-30 11:52:28.442 +03:30 [DBG] Hosting starting
+2022-11-30 11:52:29.281 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 5E95CD6217F4DDFE9050AD4155089DD85B307CC1)
+2022-11-30 11:52:29.590 +03:30 [INF] Now listening on: https://localhost:7041
+2022-11-30 11:52:29.623 +03:30 [INF] Now listening on: http://localhost:5041
+2022-11-30 11:52:29.626 +03:30 [DBG] Loaded hosting startup assembly FirstApiProject
+2022-11-30 11:52:29.628 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-30 11:52:29.634 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-30 11:52:29.635 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-30 11:52:29.639 +03:30 [INF] Hosting environment: Development
+2022-11-30 11:52:29.641 +03:30 [INF] Content root path: C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\
+2022-11-30 11:52:29.642 +03:30 [DBG] Hosting started
+2022-11-30 11:52:30.417 +03:30 [DBG] Connection id "0HMMILG30T680" received FIN.
+2022-11-30 11:52:30.518 +03:30 [DBG] Connection id "0HMMILG30T680" accepted.
+2022-11-30 11:52:30.525 +03:30 [DBG] Connection id "0HMMILG30T680" started.
+2022-11-30 11:52:30.595 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-30 11:52:30.784 +03:30 [DBG] Connection id "0HMMILG30T680" stopped.
+2022-11-30 11:52:30.794 +03:30 [DBG] Connection id "0HMMILG30T680" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-30 11:52:32.190 +03:30 [DBG] Connection id "0HMMILG30T681" accepted.
+2022-11-30 11:52:32.579 +03:30 [DBG] Connection id "0HMMILG30T681" started.
+2022-11-30 11:52:33.092 +03:30 [DBG] Connection 0HMMILG30T681 established using the following protocol: "Tls12"
+2022-11-30 11:52:33.324 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+2022-11-30 11:52:33.437 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-30 11:52:34.509 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-11-30 11:52:35.587 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-11-30 11:52:35.587 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+2022-11-30 11:52:35.640 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 2331.0343ms
+2022-11-30 11:52:35.669 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 81.2599ms
+2022-11-30 11:52:36.321 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+2022-11-30 11:52:37.172 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 851.4910ms
+2022-11-30 11:52:38.929 +03:30 [DBG] Connection id "0HMMILG30T681" received FIN.
+2022-11-30 11:52:39.141 +03:30 [DBG] Connection id "0HMMILG30T681" is closed. The last processed stream ID was 5.
+2022-11-30 11:52:39.210 +03:30 [DBG] Connection id "0HMMILG30T681" sending FIN because: "The client closed the connection."
+2022-11-30 11:52:39.223 +03:30 [DBG] Connection id "0HMMILG30T681" stopped.
+2022-11-30 11:52:56.778 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-30 11:52:57.609 +03:30 [DBG] Hosting starting
+2022-11-30 11:52:58.562 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 5E95CD6217F4DDFE9050AD4155089DD85B307CC1)
+2022-11-30 11:52:58.699 +03:30 [INF] Now listening on: https://localhost:7041
+2022-11-30 11:52:58.773 +03:30 [INF] Now listening on: http://localhost:5041
+2022-11-30 11:52:58.775 +03:30 [DBG] Loaded hosting startup assembly FirstApiProject
+2022-11-30 11:52:58.778 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-30 11:52:58.781 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-30 11:52:58.785 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-30 11:52:58.796 +03:30 [INF] Hosting environment: Development
+2022-11-30 11:52:58.827 +03:30 [INF] Content root path: C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\
+2022-11-30 11:52:58.831 +03:30 [DBG] Hosting started
+2022-11-30 11:52:58.960 +03:30 [DBG] Connection id "0HMMILGBH13GC" accepted.
+2022-11-30 11:52:58.964 +03:30 [DBG] Connection id "0HMMILGBH13GC" started.
+2022-11-30 11:52:58.987 +03:30 [DBG] Connection id "0HMMILGBH13GC" received FIN.
+2022-11-30 11:52:59.186 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-11-30 11:53:00.546 +03:30 [DBG] Connection id "0HMMILGBH13GC" stopped.
+2022-11-30 11:53:01.337 +03:30 [DBG] Connection id "0HMMILGBH13GD" accepted.
+2022-11-30 11:53:01.566 +03:30 [DBG] Connection id "0HMMILGBH13GD" started.
+2022-11-30 11:53:01.569 +03:30 [DBG] Connection id "0HMMILGBH13GC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-30 11:53:01.683 +03:30 [DBG] Connection 0HMMILGBH13GD established using the following protocol: "Tls12"
+2022-11-30 11:53:02.296 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+2022-11-30 11:53:02.442 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-30 11:53:03.930 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-11-30 11:53:04.411 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-11-30 11:53:04.560 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 2289.5307ms
+2022-11-30 11:53:04.931 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+2022-11-30 11:53:04.944 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 13.4995ms
+2022-11-30 11:53:06.257 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+2022-11-30 11:53:07.392 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1113.6847ms
+2022-11-30 11:53:09.006 +03:30 [DBG] Connection id "0HMMILGBH13GD" received FIN.
+2022-11-30 11:53:09.025 +03:30 [DBG] Connection id "0HMMILGBH13GD" is closed. The last processed stream ID was 5.
+2022-11-30 11:53:09.029 +03:30 [DBG] Connection id "0HMMILGBH13GD" sending FIN because: "The client closed the connection."
+2022-11-30 11:53:09.036 +03:30 [DBG] Connection id "0HMMILGBH13GD" stopped.
+2022-11-30 18:12:25.229 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 18:12:26.759 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 18:12:27.179 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 18:12:27.240 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 18:12:27.677 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 18:15:08.406 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 18:15:10.398 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 18:15:11.143 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 18:15:11.191 +03:30 [DBG] Creating DbConnection.
+2022-11-30 18:15:11.252 +03:30 [DBG] Created DbConnection. (51ms).
+2022-11-30 18:15:11.256 +03:30 [DBG] Migrating using database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.263 +03:30 [DBG] Creating DbConnection.
+2022-11-30 18:15:11.265 +03:30 [DBG] Created DbConnection. (1ms).
+2022-11-30 18:15:11.268 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.293 +03:30 [DBG] An error occurred using the connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.296 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.307 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (1ms).
+2022-11-30 18:15:11.308 +03:30 [DBG] Creating DbConnection.
+2022-11-30 18:15:11.308 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 18:15:11.308 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.308 +03:30 [DBG] An error occurred using the connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.309 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.309 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 18:15:11.309 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.327 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.349 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-30 18:15:11.363 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (13ms).
+2022-11-30 18:15:11.365 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (22ms).
+2022-11-30 18:15:11.376 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-11-30 18:15:11.437 +03:30 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-11-30 18:15:11.440 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.445 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (4ms).
+2022-11-30 18:15:11.909 +03:30 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-11-30 18:15:11.909 +03:30 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-30 18:15:11.909 +03:30 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2022-11-30 18:15:11.909 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.910 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.910 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-11-30 18:15:11.923 +03:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-11-30 18:15:11.924 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.924 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 18:15:11.926 +03:30 [DBG] Creating DbConnection.
+2022-11-30 18:15:11.926 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 18:15:11.926 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.927 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.931 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.932 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 18:15:11.943 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 18:15:11.943 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 18:15:11.944 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 18:15:11.944 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.944 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.945 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 18:15:11.950 +03:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 18:15:11.951 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.951 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 18:15:11.953 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-30 18:15:11.954 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 18:15:11.954 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 18:15:11.954 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:11.954 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.955 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 18:15:11.957 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 18:15:11.963 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:11.968 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db' is being disposed after spending 7ms reading results.
+2022-11-30 18:15:11.969 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 18:15:12.278 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (309ms).
+2022-11-30 18:15:12.310 +03:30 [INF] Applying migration '20221130144227_initialdb1'.
+2022-11-30 18:15:12.358 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 18:15:12.359 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 18:15:12.359 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:05:51.566 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:05:52.697 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 19:05:53.020 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:05:53.047 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:05:53.085 +03:30 [DBG] Created DbConnection. (31ms).
+2022-11-30 19:05:53.087 +03:30 [DBG] Migrating using database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.092 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:05:53.093 +03:30 [DBG] Created DbConnection. (1ms).
+2022-11-30 19:05:53.098 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.115 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.120 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.131 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:05:53.151 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:05:53.163 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (9ms).
+2022-11-30 19:05:53.165 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (20ms).
+2022-11-30 19:05:53.165 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.169 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.180 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:05:53.214 +03:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:05:53.216 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.221 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (4ms).
+2022-11-30 19:05:53.223 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:05:53.224 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 19:05:53.224 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.225 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.225 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.225 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:05:53.225 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:05:53.225 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:05:53.225 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:05:53.225 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.225 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.226 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:05:53.226 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:05:53.227 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.227 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:05:53.250 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-30 19:05:53.250 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:05:53.250 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:05:53.250 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.250 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.251 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:05:53.251 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:05:53.253 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.255 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db' is being disposed after spending 1ms reading results.
+2022-11-30 19:05:53.255 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:05:53.255 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:05:53.274 +03:30 [INF] Applying migration '20221130144227_initialdb1'.
+2022-11-30 19:05:53.370 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:05:53.371 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:05:53.371 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:06:55.981 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:06:57.505 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 19:06:57.836 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:06:57.896 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 19:06:57.949 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:07:18.610 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:07:19.477 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 19:07:19.720 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:07:19.758 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 19:07:19.792 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:11:53.016 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:11:55.545 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:11:55.715 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:11:55.855 +03:30 [DBG] Created DbConnection. (132ms).
+2022-11-30 19:11:55.871 +03:30 [DBG] Migrating using database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:55.877 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:11:55.878 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 19:11:55.884 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:55.907 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:55.916 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:55.935 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (1ms).
+2022-11-30 19:11:55.961 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:11:55.977 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (14ms).
+2022-11-30 19:11:55.978 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (25ms).
+2022-11-30 19:11:55.978 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:55.983 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:55.992 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:11:56.022 +03:30 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:11:56.024 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:56.028 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (3ms).
+2022-11-30 19:11:56.030 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:11:56.030 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 19:11:56.030 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:56.031 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:56.032 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:56.032 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:11:56.032 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:11:56.032 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:11:56.033 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:11:56.033 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:56.033 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:56.033 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:11:56.034 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:11:56.034 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:56.035 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:11:56.062 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-30 19:11:56.062 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:11:56.062 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:11:56.063 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:56.063 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:56.066 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:11:56.068 +03:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:11:56.074 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:56.076 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db' is being disposed after spending 5ms reading results.
+2022-11-30 19:11:56.076 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:11:56.076 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:11:56.094 +03:30 [INF] Applying migration '20221130144227_initialdb1'.
+2022-11-30 19:11:56.141 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:11:56.142 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:11:56.142 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:12:27.628 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:12:29.355 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:12:29.470 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:12:29.538 +03:30 [DBG] Created DbConnection. (48ms).
+2022-11-30 19:12:29.557 +03:30 [DBG] Migrating using database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.592 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:12:29.593 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 19:12:29.597 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.656 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.685 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.798 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (1ms).
+2022-11-30 19:12:29.833 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:12:29.863 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (27ms).
+2022-11-30 19:12:29.867 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (48ms).
+2022-11-30 19:12:29.867 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.875 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.898 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:12:29.946 +03:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:12:29.949 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.956 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (6ms).
+2022-11-30 19:12:29.961 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:12:29.961 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 19:12:29.961 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.962 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.962 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.962 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:12:29.963 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:12:29.963 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:12:29.963 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:12:29.963 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.963 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.963 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:12:29.963 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:12:29.963 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.963 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:12:29.988 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-30 19:12:29.988 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:12:29.988 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:12:29.988 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:29.988 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.989 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:12:29.990 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:12:29.995 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.997 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db' is being disposed after spending 4ms reading results.
+2022-11-30 19:12:29.997 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:12:29.997 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:12:30.021 +03:30 [INF] Applying migration '20221130144227_initialdb1'.
+2022-11-30 19:12:30.056 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:12:30.057 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:12:30.057 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:13:27.072 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:13:28.688 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:13:28.806 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:13:39.719 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:13:41.353 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:13:41.405 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:13:41.534 +03:30 [DBG] Created DbConnection. (101ms).
+2022-11-30 19:13:41.547 +03:30 [DBG] Migrating using database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.567 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:13:41.568 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 19:13:41.577 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.607 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.615 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.636 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (1ms).
+2022-11-30 19:13:41.654 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:13:41.663 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (8ms).
+2022-11-30 19:13:41.664 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (16ms).
+2022-11-30 19:13:41.665 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.668 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.678 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:13:41.716 +03:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:13:41.720 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.726 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (7ms).
+2022-11-30 19:13:41.728 +03:30 [DBG] Creating DbConnection.
+2022-11-30 19:13:41.728 +03:30 [DBG] Created DbConnection. (0ms).
+2022-11-30 19:13:41.728 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.729 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.729 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.729 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:13:41.729 +03:30 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-11-30 19:13:41.729 +03:30 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:13:41.729 +03:30 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2022-11-30 19:13:41.729 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.729 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.730 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:13:41.730 +03:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-11-30 19:13:41.730 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.730 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:13:41.751 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-11-30 19:13:41.751 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:13:41.751 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2022-11-30 19:13:41.751 +03:30 [DBG] Opening connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.751 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.752 +03:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:13:41.753 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-11-30 19:13:41.757 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.759 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db' is being disposed after spending 3ms reading results.
+2022-11-30 19:13:41.759 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\CityDb.db'.
+2022-11-30 19:13:41.759 +03:30 [DBG] Closed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:13:41.782 +03:30 [INF] Applying migration '20221130144227_initialdb1'.
+2022-11-30 19:13:41.821 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:13:41.822 +03:30 [DBG] Disposing connection to database 'main' on server 'CityDb.db'.
+2022-11-30 19:13:41.822 +03:30 [DBG] Disposed connection to database 'main' on server 'CityDb.db' (0ms).
+2022-11-30 19:14:11.878 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:14:13.532 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:14:13.696 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:19:11.165 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:19:12.881 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:19:13.013 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:28:52.767 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:28:54.884 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:28:55.014 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:30:57.415 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:30:59.046 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:30:59.416 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:32:15.170 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:32:16.793 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 19:32:17.322 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:32:17.389 +03:30 [DBG] The property 'BaseEntity.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-11-30 19:32:17.531 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:33:25.762 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:33:27.523 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:33:27.621 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:38:08.913 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:38:10.596 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:38:10.737 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:39:33.997 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:39:35.962 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:39:36.236 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:39:41.681 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:39:43.374 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:39:43.521 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:39:55.568 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:39:57.167 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:39:57.420 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:40:12.322 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:40:13.686 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:40:13.838 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:41:10.084 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-11-30 19:41:11.499 +03:30 [DBG] Hosting starting
+2022-11-30 19:41:12.207 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 5E95CD6217F4DDFE9050AD4155089DD85B307CC1)
+2022-11-30 19:41:12.358 +03:30 [INF] Now listening on: https://localhost:7041
+2022-11-30 19:41:12.361 +03:30 [INF] Now listening on: http://localhost:5041
+2022-11-30 19:41:12.362 +03:30 [DBG] Loaded hosting startup assembly FirstApiProject
+2022-11-30 19:41:12.364 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-11-30 19:41:12.365 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-11-30 19:41:12.369 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-30 19:41:12.372 +03:30 [INF] Hosting environment: Development
+2022-11-30 19:41:12.373 +03:30 [INF] Content root path: C:\Users\Hooman\Desktop\.net\WebApi\Test\FirstApiProject\
+2022-11-30 19:41:12.375 +03:30 [DBG] Hosting started
+2022-11-30 19:41:12.463 +03:30 [DBG] Connection id "0HMMITM01IA5T" accepted.
+2022-11-30 19:41:12.470 +03:30 [DBG] Connection id "0HMMITM01IA5T" started.
+2022-11-30 19:41:13.146 +03:30 [DBG] Connection id "0HMMITM01IA5U" accepted.
+2022-11-30 19:41:13.156 +03:30 [DBG] Connection id "0HMMITM01IA5U" started.
+2022-11-30 19:41:15.113 +03:30 [DBG] Connection id "0HMMITM01IA5V" accepted.
+2022-11-30 19:41:15.961 +03:30 [DBG] Connection id "0HMMITM01IA5V" started.
+2022-11-30 19:41:16.328 +03:30 [DBG] Connection 0HMMITM01IA5V established using the following protocol: "Tls12"
+2022-11-30 19:41:16.448 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/swagger/index.html - -
+2022-11-30 19:41:16.570 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-11-30 19:41:17.567 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-11-30 19:41:18.182 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-11-30 19:41:18.200 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/swagger/index.html - - - 200 - text/html;charset=utf-8 1754.9005ms
+2022-11-30 19:41:18.230 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - -
+2022-11-30 19:41:18.277 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 46.3267ms
+2022-11-30 19:41:18.883 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - -
+2022-11-30 19:41:19.369 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7041/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 486.1001ms
+2022-11-30 19:41:22.593 +03:30 [DBG] Authentication of the HTTPS connection timed out.
+2022-11-30 19:41:22.595 +03:30 [DBG] Connection id "0HMMITM01IA5V" received FIN.
+2022-11-30 19:41:22.814 +03:30 [DBG] Connection id "0HMMITM01IA5T" stopped.
+2022-11-30 19:41:22.833 +03:30 [DBG] Connection id "0HMMITM01IA5V" is closed. The last processed stream ID was 5.
+2022-11-30 19:41:23.139 +03:30 [DBG] Connection id "0HMMITM01IA5V" sending FIN because: "The client closed the connection."
+2022-11-30 19:41:23.140 +03:30 [DBG] Connection id "0HMMITM01IA5T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-30 19:41:23.147 +03:30 [DBG] Connection id "0HMMITM01IA5V" stopped.
+2022-11-30 19:41:23.558 +03:30 [DBG] Authentication of the HTTPS connection timed out.
+2022-11-30 19:41:23.565 +03:30 [DBG] Connection id "0HMMITM01IA5U" stopped.
+2022-11-30 19:41:23.587 +03:30 [DBG] Connection id "0HMMITM01IA5U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-11-30 19:42:31.951 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:42:35.862 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:42:36.062 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:43:32.296 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:43:34.235 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:43:34.390 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:43:50.998 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:43:52.478 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:43:52.585 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:44:26.321 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:44:27.843 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:44:27.976 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:44:43.027 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:44:44.578 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:44:44.796 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:44:51.366 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:44:53.124 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:44:53.261 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:48:33.421 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:48:35.019 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:48:35.327 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:48:48.815 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:48:50.190 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:48:50.324 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:52:36.264 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:52:38.299 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:52:38.453 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:52:43.033 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:52:44.669 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:52:44.927 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:54:40.604 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:54:42.442 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:54:42.640 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:54:48.075 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:54:49.722 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:54:49.914 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 19:57:51.529 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 19:57:53.297 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 19:57:53.506 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 20:02:45.592 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 20:02:47.804 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 20:02:47.950 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 20:03:16.878 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 20:03:18.960 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 20:03:19.079 +03:30 [DBG] 'CityContext' disposed.
+2022-11-30 20:03:33.153 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-11-30 20:03:35.839 +03:30 [DBG] Entity Framework Core 7.0.0 initialized 'CityContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:7.0.0' with options: None
+2022-11-30 20:03:36.026 +03:30 [DBG] 'CityContext' disposed.
